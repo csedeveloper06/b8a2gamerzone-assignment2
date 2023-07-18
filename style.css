@@ -1,4 +1,53 @@
+/* shared styles */
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-color{
+    /* color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%); */
+    color: #FF42A5;
+}
+
+/* nav styles */
+nav{
+    min-height: 5rem;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.menus-section{
+    display: flex;
+    gap: 2rem;
+}
+
+.menus{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 220px;
+    height: 36px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 2px 0px 2px 46px;
+    margin: auto;
+}
+.icon-content{
+    gap: 1.6rem;
 }
