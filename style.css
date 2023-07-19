@@ -249,6 +249,12 @@ nav{
     height: 400px;
 
 }
+.overlay{
+    height: 400px;
+    width: 300px;
+    background-image: url("./images/rectangle7.png");
+    background-size: cover;
+}
 
 /* play instantly section */
 
@@ -356,7 +362,7 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding-top: 50px;
+    padding: 50px;
 }
 .conditions-bar li{
     list-style-type: none;
@@ -370,11 +376,16 @@ nav{
 }
 
 .fooetr-end{
+    margin: 48px 500px 130px 500px;
+}
+.copyright-footer{
     color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    margin: 48px 500px 130px 500px;
+    margin: 28px 300px 130px 400px;
+   
 }
 
 /* media query styles for mobile devices */
