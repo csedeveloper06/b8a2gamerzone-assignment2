@@ -249,12 +249,6 @@ nav{
     height: 400px;
 
 }
-.overlay{
-    height: 400px;
-    width: 300px;
-    background-image: url("./images/rectangle7.png");
-    background-size: cover;
-}
 
 /* play instantly section */
 
@@ -385,7 +379,6 @@ nav{
     font-size: 16px;
     font-weight: 500;
     margin: 28px 300px 130px 400px;
-   
 }
 
 /* media query styles for mobile devices */
