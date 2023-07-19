@@ -6,7 +6,6 @@
 }
 
 .primary-color{
-    /* color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%); */
     color: #FF42A5;
 }
 
@@ -24,6 +23,11 @@ nav{
     align-items: center;
     gap: 1rem;
 }
+.logo-title{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
 .menus-section{
     display: flex;
     gap: 2rem;
@@ -38,16 +42,31 @@ nav{
 }
 
 .nav-icons{
+    text-decoration: none;
     display: flex;
+    /* justify-content: space-evenly; */
     align-items: center;
     gap: 1.5rem;
     width: 220px;
     height: 36px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 2px 0px 2px 46px;
+    padding: 2px 0px 2px 16px;
     margin: auto;
 }
 .icon-content{
-    gap: 1.6rem;
+    gap: 3.6rem;
+}
+
+.icon-content a .fa-youtube{
+    padding: 10px;
+}
+
+/* media query styles for mobile devices */
+@media screen and (max-width: 576px) {
+    nav, .menus-section{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
 }
