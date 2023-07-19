@@ -283,6 +283,34 @@ nav{
     margin-left: -100px;
 }
 
+/* game icons styles */
+.icon-section{
+    height: 500px;
+    width: auto;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.game-icon{
+    display: flex;
+    align-items: center;
+}
+.icon-btn{
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    border: 0;
+    background: #FFF;
+    cursor: pointer;
+    padding: 28px 20px 98px 20px;
+    text-align: center;
+}
+.icon-btn:hover{
+    border: 1px solid pink;
+    color: blue;
+}
+
 /* media query styles for mobile devices */
 @media screen and (max-width: 576px) {
     nav, .menus-section{
