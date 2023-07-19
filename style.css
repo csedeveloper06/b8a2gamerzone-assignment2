@@ -200,10 +200,55 @@ nav{
 
 
 /* online-games section styles */
+.online-games{
+    height: 100vh;
+}
+
+.onlinegames-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.games-title{
+    color: #0B0223;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.small-desc{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.onlinegames-cards{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    gap: 5px;
+    margin: 10px 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.card small{
+    width: 80%;
+    margin-top: 5px;
+}
 
 
+.card img{
+    border-radius: 16px;
+    width: 300px;
+    height: 400px;
 
-
+}
 
 /* media query styles for mobile devices */
 @media screen and (max-width: 576px) {
