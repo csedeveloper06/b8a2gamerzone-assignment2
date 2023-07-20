@@ -200,54 +200,116 @@ nav{
 
 
 /* online-games section styles */
-.online-games{
+/* .online-games{
     height: 100vh;
-}
+} */
 
-.onlinegames-content{
+/* .onlinegames-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px 0px;
-}
+} */
 
-.games-title{
+/* .games-title{
     color: #0B0223;
     text-align: right;
     font-size: 48px;
     font-weight: 700;
     padding-bottom: 5px;
-}
+} */
 
-.small-desc{
+/* .small-desc{
     color: #534C64;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px; 
-}
+} */
 
-.onlinegames-cards{
+/* .onlinegames-cards{
     display: grid;
     grid-template-columns:auto auto auto auto;
     gap: 5px;
     margin: 10px 20px;
-}
-.card{
+} */
+/* .card{
     display: flex;
     flex-direction: column;
-}
-.card small{
-    /* width: 80%; */
+} */
+/* .card small{
     margin-top: 5px;
-}
+} */
 
-
+/* 
 .card img{
     border-radius: 16px;
     width: 300px;
     height: 400px;
 
+} */
+
+.cards-container{
+    box-sizing: border-box;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.card{
+    width: 350px;
+    overflow: hidden;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 17px;
+    box-shadow: 1px 2px 4px black;
+}
+.card-body, .card-title{
+    padding: 10px;
+    text-align: center;
+}
+.card-desc{
+    text-align: justify;
+}
+.img-style{
+    height: 100%;
+    width: 100%;
+    /* border-radius: 16px;
+    width: 300px;
+    height: 400px; */
+}
+.card:hover{
+    box-shadow: 6px 10px 12px gray;
+}
+
+.overlay-card{
+    height: 400px;
+    border: 8px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: 1s ease-in-out;
+}
+
+.overlay-card:hover .content{
+    right: 0;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: -120%;
+    position: absolute;
+    background: rgba(120,121,121,0.36);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* play instantly section */
