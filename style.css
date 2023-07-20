@@ -259,7 +259,6 @@ nav{
 }
 .card{
     width: 350px;
-    overflow: hidden;
     margin: 10px;
     box-sizing: border-box;
     border-radius: 17px;
@@ -273,18 +272,14 @@ nav{
     text-align: justify;
 }
 .img-style{
-    height: 100%;
     width: 100%;
-    /* border-radius: 16px;
-    width: 300px;
-    height: 400px; */
 }
 .card:hover{
     box-shadow: 6px 10px 12px gray;
 }
 
 .overlay-card{
-    height: 400px;
+    height: 450px;
     border: 8px solid white;
     border-radius: 20px;
     overflow: hidden;
@@ -310,6 +305,12 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.card-desc{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
 }
 
 /* play instantly section */
@@ -381,7 +382,7 @@ nav{
 .footer-title{
     color: #FFF;
 }
-.footer-cation{
+.footer-caption{
     padding: 120px 540px;
 }
 .footer-menus{
@@ -431,16 +432,16 @@ nav{
     font-weight: 500;
 }
 
-.fooetr-end{
+/* .fooeter-end{
     margin: 48px 500px 130px 500px;
-}
+} */
 .copyright-footer{
     color: rgba(255, 255, 255, 0.60);
     text-decoration: none;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    margin: 28px 300px 130px 400px;
+    margin: 28px 300px 130px 470px;
 }
 
 /* media query styles for mobile devices */
