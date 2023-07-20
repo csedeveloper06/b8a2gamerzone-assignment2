@@ -459,29 +459,51 @@ nav{
 }
 
 /* media query styles for mobile devices */
+
 @media screen and (max-width: 576px) {
-    nav, .menus-section{
-        margin: auto 300px;
-        padding: 50px;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
+    /* styles for nav bar sections  */
+    nav, .menus-section, .menus{
+        display: block;
     }
-    .banner-section{
-        flex-direction: column-reverse;
-        align-items: center; 
+    .logo-section{
+        display: flex;
         justify-content: center;
-        padding: 35px 140px;
-        margin: 400px 50px 50px 50px;
-       
+        align-items: center;
+        margin: 50px 550px;
     }
-     .banner-image, .banner-content{
-        margin: 2.2rem 9rem;
-        padding: 0px 50px;
-     }
-     .banner-image img{
-        height: 42rem;
-        width: auto;
-        text-align: center;
-     }
+    .menus .one{
+        margin: 5px 500px;
+    }
+    .menus .two{
+        margin: 5px 500px;
+    }
+
+    /* styles for banner section */
+    
+}
+
+/* media query styles for tablet devices */
+
+@media screen and (max-width: 960px) {
+    /* styles for nav bar section */
+    nav{
+        display: block;
+    }
+    .logo-section{
+        margin: 100px 600px;
+    }
+
+    .menus-section{
+        display: block;
+    }
+
+    .menus{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 500px 100px 650px;
+    }
+    .nav-icons{
+        display: flex;
+        margin: 0px 500px 100px 650px;
+    }
 }
