@@ -446,7 +446,7 @@ nav{
     font-weight: 500;
 }
 
-/* .fooeter-end{
+/* .footer-end{
     margin: 48px 500px 130px 500px;
 } */
 .copyright-footer{
@@ -460,50 +460,73 @@ nav{
 
 /* media query styles for mobile devices */
 
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     /* styles for nav bar sections  */
     nav, .menus-section, .menus{
         display: block;
+        width: max-content;
+        /* padding-bottom: 100px; */
     }
     .logo-section{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 50px 550px;
+        margin: 50px 450px;
     }
     .menus .one{
-        margin: 5px 500px;
+        margin: 50px 500px;
     }
     .menus .two{
-        margin: 5px 500px;
-    }
-
-    /* styles for banner section */
-    
-}
-
-/* media query styles for tablet devices */
-
-@media screen and (max-width: 960px) {
-    /* styles for nav bar section */
-    nav{
-        display: block;
-    }
-    .logo-section{
-        margin: 100px 600px;
-    }
-
-    .menus-section{
-        display: block;
-    }
-
-    .menus{
-        display: flex;
-        justify-content: space-between;
-        margin: 0px 500px 100px 650px;
+        margin: 50px 500px;
     }
     .nav-icons{
         display: flex;
-        margin: 0px 500px 100px 650px;
+        margin: 50px 450px;
+
+    }
+
+    /* styles for banner section */
+    .banner-section{
+        width: fit-content;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        /* padding: 100px; */
+    }
+    .banner-image{
+        height: max-content;
+        width: 100%;
+        /* text-align: center; */
+        padding: 100px 0px;
+        margin-top: 580px;
+        margin-left: 680px;
+    }
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+    nav{
+        display: block;
+        width: max-content;
+    }
+    .logo-section{
+        display: flex;
+        margin: 50px 300px;
+    }
+    .menus-section{
+        display: block;
+    }
+    .menus{
+        display: flex;
+        margin: 50px 350px;
+    }
+    .nav-icons{
+        display: flex;
+        margin: 50px 320px;
     }
 }
