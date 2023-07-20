@@ -527,10 +527,33 @@ nav{
 
     /* gamer section styles */
     .gamer{
+        position: relative;
+        display: block;
+        margin-bottom: 900px;
+    }
+    .gamer-img{
+        width: max-content;
+        margin-top: 490px;
+        margin-left: 300px;
+    }
+    .gamer-content{
+        position: absolute;
+        left: 130%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .btn-box {
         display: block;
     }
+    .gamer-btn{
+        margin-left: 300px;
+        width: 260px;
+    }
+
 }
 
+/* styles for tablet devices */
 @media only screen and (min-width: 600px) and (max-width: 960px) {
     nav{
         display: block;
