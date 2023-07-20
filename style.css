@@ -469,43 +469,65 @@ nav{
     }
     .logo-section{
         display: flex;
-        margin: 50px 450px;
+        margin: 50px 550px;
     }
     .menus .one{
-        margin: 50px 500px;
+        margin: 50px 600px;
     }
     .menus .two{
-        margin: 50px 500px;
+        margin: 50px 600px;
     }
     .nav-icons{
         display: flex;
-        margin: 50px 450px;
+        margin: 50px 550px;
 
     }
 
     /* styles for banner section */
     .banner-section{
-        width: fit-content;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        /* padding: 100px; */
     }
     .banner-image{
-        height: max-content;
         width: 100%;
-        /* text-align: center; */
         padding: 100px 0px;
-        margin-top: 580px;
-        margin-left: 680px;
+        margin-top: 680px;
+        margin-left: 1100px;
     }
     .banner-content{
+        width: max-content;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
+    }
+    .banner-title{
+        width: max-content;
+        margin-left: 1000px;
+    }
+    .banner-gradient-title{
+        width: max-content;
+        margin-left: 1000px;
+    }
+    .gamer-lists{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1000px;
+        /* gap: 10px; */
+    }
+    .btn-group{
+        display: flex;
+        margin-left: 1000px;
+    }
+    .secondary-btn{
+        width: fit-content;
+        height: 70px;
+        margin: 40px;
+    }
+
+    /* gamer section styles */
+    .gamer{
+        display: block;
     }
 }
 
