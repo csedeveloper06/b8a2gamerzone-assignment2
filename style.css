@@ -550,6 +550,17 @@ nav{
         margin-left: 300px;
         width: 260px;
     }
+    .online-games-title{
+        margin-left: 600px;
+    }
+    .small-0nlinegames-desc{
+        text-align: center;
+    }
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 600px;
+    }
 
 }
 
